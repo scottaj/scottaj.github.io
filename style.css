@@ -1,0 +1,21 @@
+body {
+    background-color: #222;
+    color: #eee;
+    font-family: Hind, Helvetica, sans-serif;
+    width: 800px;
+    margin: auto;
+}
+
+h1, h2, h3, h4, h5 {
+    color: #74bbd5;
+    font-family: 'Source Code Pro', monospace;
+}
+
+a {
+    color: #a5aad1;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #818ce3;
+}
