@@ -26,7 +26,19 @@
             <section id="about">
                 <h1>About Me</h1>
                 <p>
-                    languages, likes, dislikes, etc.
+                    I'm Al, and I like software. I've spent the first chunk of my career as a consultant and that has given me a breadth of technical, business, and interpersonal experiences. I've programmed a lot with JavaScript, Java, and Ruby. I've dabbled with OCaml, F#, Scala, Clojure, and some others but not to any serious extent. 
+                </p>
+
+                <p>
+                    I'm passionate about developer tooling, particularly Emacs. If you get to know me you might be irritated by how much I talk about it.
+                </p>
+
+                <p>
+                    Outside of programming I enjoy trivia, reading fantasy (but not sci-fi), and disc golf.
+                </p>
+
+                <p>
+                    If you're interested in getting in touch with me, shoot me an email or @message me on Twitter.
                 </p>
             </section>
 
@@ -40,7 +52,9 @@
                 <h2>mocha.el</h2>
                 <p>
                     <a href="https://github.com/scottaj/mocha.el">mocha.el</a> came out of my frustrations at not being able to easily run my JavaScript tests inside of Emacs.
-                    It adds commands that allow you to run and debug tests at a project, file, and individual <code>describe</code> or <code>it</code> level.
+                    It adds commands that allow you to run and tests at a project, file, and individual <code>describe</code> or <code>it</code> level.
+                    For the latter, it hooks into the AST provided by js2-mode to figure out the innermost test level the cursor is on.
+                    It also integrates with <a href="https://github.com/rocky/emacs-dbgr">realgud</a> to allow you to debug tests inside of emacs.
 
                 </p>
                 <img src="https://mochajs.org/images/emacs.png" width="400"/>
@@ -50,12 +64,17 @@
                     <a href="https://github.com/scottaj/new-emacs-config">My Emacs config</a> is my favorite thing to tinker with.
                     I did a complete overhaul of it recently, and at the moment it is mostly tuned for doing JavaScript development.
                 </p>
+                <p>
+                    I also have an older config <a href="https://github.com/scottaj/old-emacs-config/tree/updates">here</a>.
+                    I don't recommend using that one, but it has some good snippets for setting up a Ruby or Scala dev environment in it.
+                </p>
             </section>
             
             <section id="writing">
                 <h1>My Writing</h1>
                 <p>
                     I'm not a naturally prolific author, but I've written a number of blog posts for the <a href="https://spin.atomicobject.com/">Atomic Object Spin blog</a>.
+                    I've written posts on topics ranging from solving specific framework problems in Java and JavaScript to higher level concepts like doing code reviews, writing user stories, and effective documentation.
                     You can view all of my posts <a href="https://spin.atomicobject.com/author/scott/">here</a>.
                 </p>
                 
