@@ -46,7 +46,7 @@ nav ul {
 nav li {
     background-color: #333333;
     text-align: center;
-    width: 25%;
+    width: 20%;
     float: left;
 }
 
@@ -69,5 +69,17 @@ main h2 {
 }
 
 section {
-    margin-bottom: 100px;
+    margin-bottom: 60px;
+}
+
+dt {
+    font-weight: bold;
+}
+
+dd {
+    margin-bottom: 20px;
+}
+
+dd img {
+    display: block;
 }
