@@ -50,6 +50,10 @@ nav li {
     float: left;
 }
 
+nav a {
+    display: block;
+}
+
 nav li:hover {
     background-color: #444444;
 }
